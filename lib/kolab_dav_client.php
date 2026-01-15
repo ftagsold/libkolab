@@ -1223,11 +1223,6 @@ class kolab_dav_client
             $http_config = array_merge($http_config, $config);
         }
 
-        // load HTTP_Request2 (support both composer-installed and system-installed package)
-        if (!class_exists('HTTP_Request2')) {
-            require_once 'HTTP/Request2.php';
-        }
-
         try {
             $request = new HTTP_Request2();
             $request->setConfig($http_config);
