@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f04e346558a966138f58a166b6de7a68",
+    "content-hash": "c36883287cd6cda428e7009f3c0c630c",
     "packages": [
         {
             "name": "caxy/php-htmldiff",
@@ -424,29 +424,27 @@
         },
         {
             "name": "roundcube/plugin-installer",
-            "version": "0.3.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roundcube/plugin-installer.git",
-                "reference": "c4335e20b86cfe3a184ccf24d675c6a0338a372a"
+                "reference": "378c1007dd13263f7283410cea7f7684de862f54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roundcube/plugin-installer/zipball/c4335e20b86cfe3a184ccf24d675c6a0338a372a",
-                "reference": "c4335e20b86cfe3a184ccf24d675c6a0338a372a",
+                "url": "https://api.github.com/repos/roundcube/plugin-installer/zipball/378c1007dd13263f7283410cea7f7684de862f54",
+                "reference": "378c1007dd13263f7283410cea7f7684de862f54",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0 || ^2.0"
+                "php": ">=5.3.0"
             },
             "require-dev": {
                 "composer/composer": "*"
             },
-            "type": "composer-plugin",
+            "type": "composer-installer",
             "extra": {
-                "class": [
-                    "Roundcube\\Composer\\RoundcubeInstaller"
-                ]
+                "class": "Roundcube\\Composer\\PluginInstaller"
             },
             "autoload": {
                 "psr-0": {
@@ -465,18 +463,14 @@
                 {
                     "name": "Till Klampaeckel",
                     "email": "till@php.net"
-                },
-                {
-                    "name": "Philip Weir",
-                    "email": "roundcube@tehinterweb.co.uk"
                 }
             ],
-            "description": "A composer-installer for Roundcube plugins and skins.",
+            "description": "A composer-installer for Roundcube plugins.",
             "support": {
                 "issues": "https://github.com/roundcube/plugin-installer/issues",
-                "source": "https://github.com/roundcube/plugin-installer/tree/0.3.2"
+                "source": "https://github.com/roundcube/plugin-installer/tree/0.1.3"
             },
-            "time": "2022-06-24T09:08:18+00:00"
+            "time": "2013-05-14T11:35:37+00:00"
         },
         {
             "name": "sabre/uri",
