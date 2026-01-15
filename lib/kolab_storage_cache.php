@@ -34,7 +34,7 @@ class kolab_storage_cache
     protected $metadata = [];
     protected $folder_id;
     protected $resource_uri;
-    protected $enabled = true;
+    protected $enabled = false;
     protected $synched = false;
     protected $synclock = false;
     protected $ready = false;
