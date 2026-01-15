@@ -1224,7 +1224,7 @@ class kolab_dav_client
         }
 
         if (!class_exists('HTTP_Request2', true)) {
-            require_once "../vendor/pear/http_request2/HTTP/Request2.php";
+            require_once(__DIR__."/../vendor/pear/http_request2/HTTP/Request2.php");
         }
 
         try {
