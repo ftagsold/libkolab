@@ -35,7 +35,7 @@
       "block-insecure": false
     },
     "allow-plugins": {
-      "roundcube/plugin-installer": false
+      "roundcube/plugin-installer": true
     }
   }
 }
