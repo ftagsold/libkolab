@@ -1,5 +1,5 @@
 {
-  "name": "kolab/libkolab",
+  "name": "ftagsold/libkolab",
   "type": "roundcube-plugin",
   "description": "Plugin to setup a basic environment for the interaction with a Kolab server.",
   "homepage": "https://git.kolab.org/diffusion/RPK/",
