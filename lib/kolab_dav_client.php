@@ -1224,7 +1224,7 @@ class kolab_dav_client
         }
 
         if (!class_exists('HTTP_Request2', true)) {
-            require_once "vendor/autoload.php"
+            require_once "vendor/autoload.php";
         }
 
         try {
