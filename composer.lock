@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c36883287cd6cda428e7009f3c0c630c",
+    "content-hash": "25043a8499330caa84b49fb4536474df",
     "packages": [
         {
             "name": "caxy/php-htmldiff",
@@ -129,28 +129,28 @@
             "time": "2025-10-17T16:34:55+00:00"
         },
         {
-            "name": "kolab/libcalendaring",
-            "version": "3.6.1",
+            "name": "ftagsold/libcalendaring",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kolab-roundcube-plugins-mirror/libcalendaring.git",
-                "reference": "6b1e06adfb0a89878afd8f9318e3217e432982e8"
+                "url": "https://github.com/ftagsold/libcalendaring.git",
+                "reference": "6b6c1dd490977be78f5b38b97127bb0652929a43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kolab-roundcube-plugins-mirror/libcalendaring/zipball/6b1e06adfb0a89878afd8f9318e3217e432982e8",
-                "reference": "6b1e06adfb0a89878afd8f9318e3217e432982e8",
+                "url": "https://api.github.com/repos/ftagsold/libcalendaring/zipball/6b6c1dd490977be78f5b38b97127bb0652929a43",
+                "reference": "6b6c1dd490977be78f5b38b97127bb0652929a43",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.0",
-                "roundcube/plugin-installer": ">=0.1.3",
+                "roundcube/plugin-installer": "0.1.3",
                 "sabre/vobject": "~4.5.1"
             },
+            "default-branch": true,
             "type": "roundcube-plugin",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AGPLv3"
+                "AGPL-3.0-only"
             ],
             "authors": [
                 {
@@ -167,9 +167,9 @@
             "description": "Library providing common functions for calendaring plugins",
             "homepage": "https://git.kolab.org/diffusion/RPK/",
             "support": {
-                "source": "https://github.com/kolab-roundcube-plugins-mirror/libcalendaring/tree/3.6.1"
+                "source": "https://github.com/ftagsold/libcalendaring/tree/master"
             },
-            "time": "2025-09-21T08:58:51+00:00"
+            "time": "2026-01-15T11:57:51+00:00"
         },
         {
             "name": "lolli42/finediff",
@@ -794,7 +794,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "ftagsold/libcalendaring": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
