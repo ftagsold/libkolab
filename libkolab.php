@@ -250,7 +250,7 @@ class libkolab extends rcube_plugin
             $request = self::$http_requests[$key];
         } else {
             if (!class_exists('HTTP_Request2', true)) {
-                require_once 'HTTP/Request2.php';
+                require_once "vendor/autoload.php"
             }
 
             try {
