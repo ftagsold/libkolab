@@ -34,7 +34,7 @@ class kolab_storage_cache
     protected $metadata = [];
     protected $folder_id;
     protected $resource_uri;
-    protected $enabled = false;
+    protected $enabled = true;
     protected $synched = false;
     protected $synclock = false;
     protected $ready = false;
@@ -81,7 +81,7 @@ class kolab_storage_cache
         $rcmail = rcube::get_instance();
         $this->db = $rcmail->get_dbh();
         $this->imap = $rcmail->get_storage();
-        $this->enabled = FALSE; // $rcmail->config->get('kolab_cache', false);
+        $this->enabled = $rcmail->config->get('kolab_cache', false);
         $this->folders_table = $this->db->table_name('kolab_folders');
         $this->server_timezone = new DateTimeZone(date_default_timezone_get());
 
